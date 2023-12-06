@@ -25,6 +25,7 @@ model = pickle.load(open('model_prediksi_harga_rumah.sav', 'rb'))
 df_house = pd.read_csv('housing_price_dataset.csv')
 if page=='Home':
     st.title('Prediksi Harga Rumah')
+    st.image("house.jpg")
     st.header('Judul')
     st.write("House Prediction")
     st.header("Sumber dan Alasan")
